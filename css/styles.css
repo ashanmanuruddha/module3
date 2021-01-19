@@ -1,0 +1,67 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Hachi Maru Pop', cursive;
+	font-size: 16px;
+  	color: #fff;
+  	background-color: #61122f;
+}
+
+/** HEADER **/
+.navbar-brand {
+  	padding-top: 25px;
+  	margin-left: 0px;
+  	padding-left: 0px;
+  	position: absolute;
+  	left: 15px;
+
+}
+.navbar-brand h1 { 
+  font-family: 'Merriweather', serif;
+  color: #888888;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #888888;
+  text-align: center;
+  width: 100%
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+  width: 100%;
+}
+
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/**END OF HEADER**/
+
+/** MAIN **/
+.chicken, .beef, .sushi {
+	height: 1000px;
+	background-color: #606060;
+	margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+	  /* Header */
+  	.navbar-brand {
+    padding-top: 10px;
+    height: 50px;
+  }
+  	.navbar-brand h1 
+    padding-top: 10px;
+    font-size: 5vw; 
+  }
+}
